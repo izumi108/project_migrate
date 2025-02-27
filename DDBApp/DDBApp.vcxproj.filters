@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="include\BaseCSLock.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseModule.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseThread.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseTimer.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ExitEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IExit.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EventManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ModuleManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ThreadManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimerManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GroupMessage.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Message.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MessageCenter.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseWindow.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MessagePump.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="include\log4z.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UIHungCheakThread.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Singleton.h" />
+    <ClInclude Include="resource.h">
+      <Filter>Version</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Version</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Singleton_Export.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BaseModule.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseThread.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseTimer.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ExitEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IExit.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ModuleManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ThreadManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimerManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MessageCenter.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Singleton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseWindow.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MessagePump.cpp">
+      <Filter>Message</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log4z.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UIHungCheakThread.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{69d22369-fb4e-4edc-859a-a26ed791ba3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{83429941-0af8-4a62-8b87-1e388df9ff69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{9d6d54ce-246a-44ee-9eb1-a136bdb6db2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{a3164710-62e7-4211-9367-b59113f76a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{fd9ef118-3559-4ff3-8951-108ae4b22375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{cc47b7a2-def4-407b-bd37-ed503d6ac445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Version">
+      <UniqueIdentifier>{29016679-5380-4efd-b84f-c48c3905d081}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DDBApp.rc">
+      <Filter>Version</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

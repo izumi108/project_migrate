@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{A8EBD9B2-388B-414E-867E-90A2C111733B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DDBApp", "DDBApp.vcxproj", "{9F227ECB-1404-47C8-88D5-A418F2B90673}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F227ECB-1404-47C8-88D5-A418F2B90673}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F227ECB-1404-47C8-88D5-A418F2B90673}.Debug|Win32.Build.0 = Debug|Win32
+		{9F227ECB-1404-47C8-88D5-A418F2B90673}.Release|Win32.ActiveCfg = Release|Win32
+		{9F227ECB-1404-47C8-88D5-A418F2B90673}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F227ECB-1404-47C8-88D5-A418F2B90673} = {A8EBD9B2-388B-414E-867E-90A2C111733B}
+	EndGlobalSection
+EndGlobal
