@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "future": "cpp",
+        "memory": "cpp",
+        "numeric": "cpp",
+        "system_error": "cpp",
+        "xmemory": "cpp",
+        "mutex": "cpp"
+    }
+}

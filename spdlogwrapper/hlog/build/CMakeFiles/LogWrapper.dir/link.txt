@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLogWrapper.a  CMakeFiles/LogWrapper.dir/log_wrapper.cpp.o
+/usr/bin/ranlib libLogWrapper.a

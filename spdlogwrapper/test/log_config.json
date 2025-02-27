@@ -1,0 +1,32 @@
+{
+    "outputMode": "SYNC",
+    "outputFormat": "[%Y-%m-%d %H:%M:%S.%e] [%^%l%$] [%s:%#] %v",
+    "loggers": [
+        {
+            "name": "log",
+            "level": "DEBUG",
+            "sinks": [
+                {
+                    "type": "color_console",
+                    "level": "INFO"
+                },
+                {
+                    "type": "rotating_file",
+                    "level": "DEBUG",
+                    "fileName": "test1",
+                    "filePath": "/home/unix_ai/Work/log/tmp",
+                    "maxFileSize": 10240000,
+                    "maxFile": 100
+                },
+                {
+                    "type": "daily_file",
+                    "level": "DEBUG",
+                    "fileName": "test",
+                    "filePath": "/home/unix_ai/Work/log/tmp",
+                    "hour": 5,
+                    "minute": 0
+                }
+            ]
+        }
+    ]
+}

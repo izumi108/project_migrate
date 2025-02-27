@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/test.dir/main.cpp.o  -o test   -L/data/.health_ctrl_ws/hlog/test/./lib  -Wl,-rpath,/data/.health_ctrl_ws/hlog/test/./lib -lLogWrapper -lpthread 

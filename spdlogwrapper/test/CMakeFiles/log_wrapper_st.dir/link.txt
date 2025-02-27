@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblog_wrapper_st.a  CMakeFiles/log_wrapper_st.dir/log_wrapper.cpp.o
+/usr/bin/ranlib liblog_wrapper_st.a
